@@ -1,0 +1,20 @@
+company_name: "Acme Corp"
+audience: "All employees"
+tone: "uplifting, authentic, and actionable"
+language: "en"
+themes:
+  - resilience
+  - collaboration
+  - growth mindset
+  - customer obsession
+values:
+  - integrity
+  - ownership
+  - curiosity
+quote_length:
+  min: 8
+  max: 28
+description_words: 80
+hashtags:
+  - #AcmeInspires
+  - #MondayMotivation
