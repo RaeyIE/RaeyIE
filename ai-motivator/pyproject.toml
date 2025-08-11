@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-motivator"
+version = "0.1.0"
+description = "Daily company-tailored motivational quotes"
+authors = [{ name = "AI" }]
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.40.0",
+    "pydantic>=2.8.2",
+    "PyYAML>=6.0.1",
+    "click>=8.1.7",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+ai-motivator = "motivator.cli:cli"
